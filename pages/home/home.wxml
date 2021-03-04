@@ -1,0 +1,31 @@
+<view class="page">
+	<div>
+		<main-navi class="nav_title" title="QQ音乐"></main-navi>
+	</div>
+	<view class="page__bd">
+		<mp-searchbar class="searchBox" bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+	</view>
+	<view class="home_more" style="display:flex;">
+		<div class="title_more">歌曲推荐</div>
+		<div class="more">更多></div>
+	</view>
+	<view wx:for="{{array}}" wx:key="idx" wx:for-item="itemName">
+		<!-- {{index}}: {{item.message}} -->
+		<image src="{{itemName.url}}" style=" width:720rpx;height:145rpx;margin: 0 10rpx auto;display:block;" mode="scaleToFill" src="{{itemName.url}}"></image>
+	</view>
+	<view class="home_more" style="display:flex;">
+		<div class="title_more">热门歌单</div>
+		<div class="more">更多></div>
+	</view>
+	<view  wx:for="{{arrayGD}}"  wx:key="idx" wx:for-item="itemName">
+		<image src="{{itemName.url}}" style=" float:left; width:33.333%;height:290rpx;margin: 0;display:block;" mode="scaleToFill" src="{{itemName.url}}"></image>
+	</view>
+	<view class="home_more" style="display:flex;">
+		<div class="title_more">推荐小程序</div>
+		<!-- <div class="more">更多></div> -->
+	</view>
+	<view  wx:for="{{arrayXCX}}" wx:key="idx" wx:for-item="itemName">
+		<image src="{{itemName.url}}" style="  float:left;   width:33.333%;height:90px;margin: 0 auto 10rpx;display:block;" mode="scaleToFill" src="{{itemName.url}}"></image>
+	</view>
+	  
+</view>

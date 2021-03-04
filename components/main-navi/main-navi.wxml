@@ -1,0 +1,12 @@
+<!--components/main-navi/main-navi.wxml.wxml-->
+<!-- <text>components/main-navi/main-navi.wxml.wxml</text> -->
+
+
+<!--components/main-navi/main-navi.wxml-->
+<view class="title">
+ 
+  <text class="main_text">{{title}}</text>
+ 
+</view>
+
+

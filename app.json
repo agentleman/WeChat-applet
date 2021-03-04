@@ -8,17 +8,20 @@
     "pages/main/main"
   ],
   "window": {
+    "backgroundColor":"#e4e4e4",
+    "background":"#eee",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#EDEDED",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "selectedColor": "#00D492",
     "borderStyle": "white",
+
     "list": [
       {
         "selectedIconPath": "images/yinyue-sel.png",

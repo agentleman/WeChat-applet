@@ -1,0 +1,23 @@
+{
+  "name": "wechat-applet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "weui-miniprogram": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentleman/WeChat-applet.git"
+  },
+  "author": "jimmy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agentleman/WeChat-applet/issues"
+  },
+  "homepage": "https://github.com/agentleman/WeChat-applet#readme"
+}

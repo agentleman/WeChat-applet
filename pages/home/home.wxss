@@ -1,1 +1,23 @@
-/* pages/home/home.wxss */
+page{
+  background-color: #EDEDED;
+}
+searchBox{
+  border-radius: 12px !important;
+}
+.home_more{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  margin: 30rpx 0 10rpx;
+}
+.more{
+  font-size: 22rpx;
+  margin-top: auto;
+  color: #444;
+}
+.title_more{
+  font-weight: bold;
+}
+.nav_title{
+  
+}

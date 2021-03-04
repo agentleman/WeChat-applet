@@ -1,0 +1,16 @@
+/* components/main-navi/main-navi.wxml.wxss */
+
+/* components/main-navi/main-navi.wxss */
+ 
+.title{
+  background: #EDEDED;
+  display: flex;
+}
+ 
+.title .main_text{
+  align-items: center;
+  line-height: 200rpx;
+  height: 160rpx;
+  margin: 0 auto;
+  font-weight: bold;
+}
