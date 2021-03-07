@@ -8,10 +8,10 @@ searchBox{
   display: flex;
   justify-content: space-between;
   padding: 0 20rpx;
-  margin: 30rpx 0 10rpx;
+  margin: 30rpx 0 30rpx;
 }
 .more{
-  font-size: 22rpx;
+  font-size: 24rpx;
   margin-top: auto;
   color: #444;
 }

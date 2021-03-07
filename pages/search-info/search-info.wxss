@@ -1,0 +1,14 @@
+/* pages/search-info.wxss */
+page{
+  background-color: #EDEDED;
+}
+searchBox{
+  border-radius: 12px !important;
+}
+.title .main_text{
+  align-items: center;
+  line-height: 200rpx;
+  height: 160rpx;
+  margin: 0 auto;
+  font-weight: bold;
+}

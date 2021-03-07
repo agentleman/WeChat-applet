@@ -8,7 +8,7 @@ Page({
     inputShowed: false,
     inputVal: "",
     name: "",
-    title: "QQ音乐",
+    // title: "QQ音乐",
     array: [{
       url: '../../images/home/1.png',
     }, {
@@ -45,6 +45,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(options)
     this.setData({
       search: this.search.bind(this)
     })
@@ -61,7 +62,14 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    console.log('home show')
+    this.inputShowed = false;
+    var pages = getCurrentPages()
+    //对上一页进行刷新
+    pages[pages.length - 2].onload()
+    this.setData({
+      inputShowed: false
+    })
   },
 
   /**
@@ -75,7 +83,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    this.inputShowed = false;
   },
 
   /**
@@ -114,4 +122,15 @@ Page({
   selectResult: function (e) {
     console.log('select result', e.detail)
   },
+  searchClick: function (e) {
+    this.inputShowed = false;
+    setTimeout(() => {
+      this.inputShowed = false;
+      wx.navigateTo({
+        url: "../search-info/search-info",
+      })
+    }, 2000)
+
+
+  }
 })

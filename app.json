@@ -5,15 +5,16 @@
     "pages/logs/logs",
     "pages/video/video",
     "pages/putong/putong",
-    "pages/main/main"
+    "pages/main/main",
+    "pages/search-info/search-info"
   ],
   "window": {
-    "backgroundColor":"#e4e4e4",
-    "background":"#eee",
+    "backgroundColor": "#e4e4e4",
+    "background": "#eee",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#EDEDED",
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationBarTitleText": "QQ音乐",
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
@@ -21,7 +22,6 @@
     "color": "#a9b7b7",
     "selectedColor": "#00D492",
     "borderStyle": "white",
-
     "list": [
       {
         "selectedIconPath": "images/yinyue-sel.png",
@@ -34,18 +34,6 @@
         "iconPath": "images/video.png",
         "pagePath": "pages/video/video",
         "text": "视频"
-      },
-      {
-        "selectedIconPath": "images/shequ-sel.png",
-        "iconPath": "images/shequ.png",
-        "pagePath": "pages/putong/putong",
-        "text": "扑通"
-      },
-      {
-        "selectedIconPath": "images/wode-sel.png",
-        "iconPath": "images/wode.png",
-        "pagePath": "pages/main/main",
-        "text": "我的"
       }
     ]
   }
